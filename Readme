@@ -1,0 +1,5 @@
+### Cookie Base Auth
+
+### Command to login and Accept Web
+curl -X POST -d "username=user1&password=password1" -c cookies.txt http://localhost:3000/login
+curl -b cookies.txt http://localhost:3000/dashboard
